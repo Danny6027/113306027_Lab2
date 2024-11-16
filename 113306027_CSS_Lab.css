@@ -1,0 +1,59 @@
+<style>
+body {
+    margin:0;
+    padding:0;
+    background-image: url(youtube.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: 100px;
+    color: white;
+    background-color: lightred;
+}
+
+.navbar1 {
+    color: lightred;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+h1.margin{
+    font-family: "Arial",sans-serif;
+    margin: 0;
+    position: relative;
+    top: 0;
+    padding-left: 60px;
+}
+
+.margin{
+    color: blue;
+    height: 100px;
+    line-height: 100px;
+}
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+    overflow: hidden;
+    position: relative;
+    top: 2em;
+    left: 0;
+    width: 100%;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    padding: 14px 20px ;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #000
+}
